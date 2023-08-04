@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+ .fondo{
+    background-color: azure;
+    /* background: linear-gradient(to right, #1e5799 0%,#fb931d 19%,#6a6a69 40%,#e3dfd6 60%,#eb2929 83%,#1e5799 100%); 
+    background-size: 10000px;
+    animation: bg 15s linear infinite ; */
+ }
+ /* @keyframes bg{
+    0%{
+      background-position-x: 0;
+    }
+    
+    100%{
+      background-position-x: 10000px;
+    }
+  } */
+  .red, .yellow, .green {
+    border-radius: 50px;
+    float: left;
+    margin: -1px 8px 0 0;
+    width: 11px;
+    height: 11px;
+  }
+  
+  .red {
+    background: #ff615d;
+    border: solid 1px #c75346;
+  }
+  
+ .contenedor{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 10px;
+    width: 650px;
+    z-index: 999999999;
+    max-width: 650px;
+    height: 650px !important ;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    border: 1px solid;
+    border-radius: 5px;
+    
+
+ }
+ .listaMensajes{
+    overflow-y: scroll;
+    background-color: crimson;
+    height: 550px;
+ }
+ .contenedor ul{
+    padding: 0;
+ }
+
+ .contenedor ul li{
+    padding: 10px;
+ }
+ .window-frame {
+   cursor: default;
+   width: 90%;
+   box-shadow: 0px 0px 15px #999;
+   margin: 0 auto;
+ }
+ 
+ .top-bar {
+   background: #eeecef;
+   background: -webkit-linear-gradient(-180deg, #eeecef, #d2d2d2); 
+   background: -o-linear-gradient(-180deg, #eeecef, #d2d2d2);
+   background: -moz-linear-gradient(-180deg, #eeecef, #d2d2d2); 
+   background: linear-gradient(-180deg, #eeecef, #d2d2d2);
+   border-bottom: solid 1px #afafaf;
+   border-radius: 5px 5px 0 0;
+   padding: 7px 7px 3px;
+   height: 15px;
+   text-align: center;
+ }
+ 
+
+ .title {
+   width: 90%;
+   margin: 0 auto;
+   margin-top: -3px;  
+   font-weight: 600;
+   font-size: 15px;
+ }
+ 
+ .inner-content {
+   background: #fff;
+   border-radius: 0 0 5px 5px;
+   width: 100%;
+   overflow: hidden;
+ }
+ 
+ .greyed {
+   color: #7f747a !important;
+ }
+ 
+ .divide {
+   border-top: solid 1px #d3c4c0;
+   width: 90%;
+   height: 1px;
+   margin: 0 auto;
+ }
+ 
+ .grayscale {
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+ }
+ 
+ .content {
+   background: #fff;
+   float: left;
+   height: 100%;
+   padding: 0.5% 2%;
+ }
+ .content2 {
+   background: #fff;
+   float: left;
+   height: 100%;
+   padding: 0;
+ }
+
+.mensajeNuevo{
+    padding: 30px 0 0 0;
+}
+ .cajaComentario{
+    width: 500px;
+    float: left;
+ }
+ .btnEnviarComentario{
+    float: left;
+    width: 70px;
+    background-color: gray;
+    border: 1px solid;
+    margin-left: 3px;
+    margin-top: 15px;
+    text-align: center;
+    height: 20px;
+ }
